@@ -6,7 +6,49 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+Studi Kasus: Sistem Manajemen Data Karyawan dan Gaji yang Aman
+Latar Belakang
+Perusahaan X adalah sebuah perusahaan yang bergerak di bidang manufaktur dengan ribuan karyawan di seluruh cabang di negeri ini. Data pribadi karyawan dan informasi terkait gaji disimpan secara digital, namun perusahaan menyadari bahwa data ini rentan terhadap kebocoran jika tidak dilindungi dengan baik. Mengingat meningkatnya ancaman siber, perusahaan X memutuskan untuk mengembangkan aplikasi berbasis Laravel yang dapat mengelola dan mengamankan data karyawan serta gaji.
 
+Tujuan
+Menyimpan Data Karyawan dan Gaji dengan Aman:
+Menyimpan informasi data karyawan dan gaji dalam bentuk terenkripsi agar tetap terlindungi jika terjadi kebocoran data.
+
+Menerapkan Fitur Keamanan:
+
+Autentikasi: Hanya pengguna dengan kredensial yang sah (email dan password) yang dapat mengakses aplikasi.
+
+Otorisasi: Fitur tertentu hanya dapat diakses oleh pengguna dengan hak akses admin.
+
+Enkripsi: Data sensitif seperti gaji dan informasi pribadi karyawan dienkripsi untuk melindungi informasi tersebut.
+
+Menyediakan Antarmuka CRUD yang Aman:
+Antarmuka aplikasi ini memungkinkan admin untuk melakukan CRUD (Create, Read, Update, Delete) untuk data karyawan dan gaji, dengan pengamanan yang ketat.
+
+Solusi yang Diterapkan
+Autentikasi dan Otorisasi dengan Laravel Breeze:
+Laravel Breeze dipilih untuk menyediakan autentikasi yang sederhana dan kuat. Pengguna dapat mendaftar, login, dan logout menggunakan email dan password. Setelah login, pengguna akan diarahkan ke dashboard berdasarkan level akses mereka.
+
+Enkripsi Data Gaji dengan Laravel's Encryption:
+Data gaji dienkripsi menggunakan Laravel's built-in encryption sebelum disimpan dalam database. Ini memastikan bahwa data sensitif tetap aman meskipun ada kebocoran.
+
+Manajemen Hak Akses dengan Middleware:
+Middleware auth dan can digunakan untuk mengontrol akses ke fitur CRUD. Hanya pengguna dengan peran admin yang dapat mengakses dan mengedit data karyawan dan gaji.
+
+Antarmuka CRUD yang Responsif:
+Dengan menggunakan Blade templates, antarmuka aplikasi dirancang agar admin dapat dengan mudah menambah, mengedit, dan menghapus data karyawan dan gaji. Fitur-fitur seperti Tambah Karyawan, Edit Karyawan, Tambah Gaji, dan Edit Gaji tersedia secara dinamis.
+
+Hasil dan Manfaat
+Keamanan Data: Data pribadi karyawan dan gaji tetap terlindungi berkat enkripsi yang diterapkan.
+
+Peningkatan Efisiensi Manajemen Data: Admin dapat mengelola data dengan mudah melalui antarmuka yang responsif.
+
+Keamanan Pengguna: Pengguna biasa hanya dapat melihat data mereka sendiri, sementara admin memiliki akses penuh.
+
+Kepatuhan terhadap Regulasi Keamanan Data: Sistem ini memastikan perusahaan X mematuhi regulasi perlindungan data pribadi.
+
+Kesimpulan
+Dengan memanfaatkan Laravel, perusahaan X berhasil mengembangkan sistem yang tidak hanya aman dan efisien, tetapi juga mudah digunakan. Aplikasi ini melindungi data sensitif dan memastikan bahwa hanya pihak yang berwenang yang dapat mengaksesnya, menjadikannya solusi yang ideal dalam mengelola informasi karyawan dan gaji.
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
