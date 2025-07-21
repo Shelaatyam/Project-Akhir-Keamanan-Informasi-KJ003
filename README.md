@@ -49,7 +49,7 @@ Keamanan Pengguna: Pengguna biasa hanya dapat melihat data mereka sendiri, semen
 
 Kepatuhan terhadap Regulasi Keamanan Data: Sistem ini memastikan perusahaan X mematuhi regulasi perlindungan data pribadi.
 
-Kesimpulan
+## Kesimpulan
 Dengan memanfaatkan Laravel, perusahaan X berhasil mengembangkan sistem yang tidak hanya aman dan efisien, tetapi juga mudah digunakan. Aplikasi ini melindungi data sensitif dan memastikan bahwa hanya pihak yang berwenang yang dapat mengaksesnya, menjadikannya solusi yang ideal dalam mengelola informasi karyawan dan gaji.
 ## About Laravel
 
