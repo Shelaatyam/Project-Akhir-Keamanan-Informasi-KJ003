@@ -6,11 +6,13 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-Studi Kasus: Sistem Manajemen Data Karyawan dan Gaji yang Aman
-Latar Belakang
+
+## Studi Kasus: Sistem Manajemen Data Karyawan dan Gaji yang Aman
+
+## Latar Belakang
 Perusahaan X adalah sebuah perusahaan yang bergerak di bidang manufaktur dengan ribuan karyawan di seluruh cabang di negeri ini. Data pribadi karyawan dan informasi terkait gaji disimpan secara digital, namun perusahaan menyadari bahwa data ini rentan terhadap kebocoran jika tidak dilindungi dengan baik. Mengingat meningkatnya ancaman siber, perusahaan X memutuskan untuk mengembangkan aplikasi berbasis Laravel yang dapat mengelola dan mengamankan data karyawan serta gaji.
 
-Tujuan
+## Tujuan
 Menyimpan Data Karyawan dan Gaji dengan Aman:
 Menyimpan informasi data karyawan dan gaji dalam bentuk terenkripsi agar tetap terlindungi jika terjadi kebocoran data.
 
